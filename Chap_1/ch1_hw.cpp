@@ -86,12 +86,12 @@ void ex1_6_array() {
         int ival, icnt = 0;
 
         while (cin >> ival && icnt <= arr_size){
-                ia[icnt++] = ival;
+                iarr[icnt++] = ival;
         }
 
         int sum = 0;
         for (int ix = 0; ix < icnt; ++ix){
-                sum +=ia[ix];
+                sum +=iarr[ix];
         }
 
         int average = sum / icnt;
@@ -106,8 +106,7 @@ int main() {
 	// ex1_5_string();
 	// ex1_5_cstyle();
 	// ex1_6_vector();
-	// ex1_6_array();
-	int rev_val = ex1_7();
+	ex1_6_array();
 
 	
 	// ex1_xtra1();

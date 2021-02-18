@@ -1,0 +1,17 @@
+{
+    "files.associations": {
+        "array": "cpp",
+        "bitset": "cpp",
+        "initializer_list": "cpp",
+        "string_view": "cpp",
+        "utility": "cpp",
+        "iostream": "cpp",
+        "iosfwd": "cpp",
+        "deque": "cpp",
+        "string": "cpp",
+        "vector": "cpp",
+        "ostream": "cpp",
+        "typeinfo": "cpp",
+        "random": "cpp"
+    }
+}
