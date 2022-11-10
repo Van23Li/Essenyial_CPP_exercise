@@ -34,8 +34,8 @@ arrayType prog6_max( const arrayType *, int  );
 
 int main()
 {
-	prog1();
-	// prog2(); //2~4
+	// prog1();
+	prog2(); //2~4
 	// prog5();
     //prog6();
 

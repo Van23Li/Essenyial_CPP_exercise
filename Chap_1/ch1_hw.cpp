@@ -81,9 +81,11 @@ int ex1_6_vector(){
 
 
 void ex1_6_array() {
-        const int arr_size = 128;
+        const int arr_size = 5;
         int iarr[arr_size];
         int ival, icnt = 0;
+
+        cout << "Please enter a a list of numbers: ";
 
         while (cin >> ival && icnt <= arr_size){
                 iarr[icnt++] = ival;
